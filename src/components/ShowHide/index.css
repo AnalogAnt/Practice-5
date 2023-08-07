@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.bg-con {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.head {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.but-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.butt {
+  background-color: #fddddb;
+  padding: 10px;
+  font-size: 15px;
+  color: #dd1264;
+  margin: 10px;
+  border-radius: 5px;
+  border-style: none;
+}
+.card-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card {
+  background-color: #fddddb;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+}
